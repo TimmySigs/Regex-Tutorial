@@ -5,7 +5,9 @@ This Regex (Regular Expression) tutorial is created to help you understand and d
 
 ## Summary
 
-Today I will be covering and breaking down the components of a regular expression used to match Hex Values. Hex values are commonly used for color using the hexadecimal color code format. In the web we can use hex triplet (hex color code) to represent colors on a web page. For the hex color code, there are two formats, a standard hex triplet and a shorthand hex format, where both formats start with a **#**.
+Today I will be covering and breaking down the components of a regular expression used to match Hex Values. Hex values are commonly used for color using the hexadecimal color code format. In the web we can use hex triplet (hex color code) to represent colors on a web page. For the hex color code, there are two formats, a standard hex triplet and a shorthand hex format, where both formats start with a **#**. 
+
+- /^#?([a-f0-9]{6}|[a-f0-9]{3})$/
 
 ## Table of Contents
 
