@@ -15,7 +15,6 @@ In this tutorial I will be covering and breaking down the components of a regula
 - [Quantifiers](#quantifiers)
 - [OR Operator](#or-operator)
 - [Character Classes](#character-classes)
-- [Grouping and Capturing](#grouping-and-capturing)
 - [Bracket Expressions](#bracket-expressions)
 - [Greedy and Lazy Match](#greedy-and-lazy-match)
 
@@ -67,6 +66,6 @@ In this section we will discuss greedy and lazy matches. A greedy match tries to
 ## Author
 Timothy Signore
 
-im is a Chicago based web devloper finishing a full stack certification, always looking to learn more about programming and these tutorials help!
+Tim is a Chicago based web devloper finishing a full stack certification, always looking to learn more about programming and these tutorials help!
 
 GitHub: [TimmySigs](https://github.com/Timmysigs)
