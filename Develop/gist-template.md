@@ -5,9 +5,9 @@ This Regex (Regular Expression) tutorial is created to help you understand and d
 
 ## Summary
 
-Today I will be covering and breaking down the components of a regular expression used to match Hex Values. Hex values are commonly used for color using the hexadecimal color code format. In the web we can use hex triplet (hex color code) to represent colors on a web page. For the hex color code, there are two formats, a standard hex triplet and a shorthand hex format, where both formats start with a **#**. 
+In this tutorial I will be covering and breaking down the components of a regular expression used to match Hex Values. Hex values are commonly used for color using the hexadecimal color code format. In the web we can use hex triplet (hex color code) to represent colors on a web page. For the hex color code, there are two formats, a standard hex triplet and a shorthand hex format, where both formats start with a **#**. The expression for matching Hex Values is shown below
 
-- /^#?([a-f0-9]{6}|[a-f0-9]{3})$/
+`/^#?([a-f0-9]{6}|[a-f0-9]{3})$/`
 
 ## Table of Contents
 
@@ -65,6 +65,8 @@ Bracket expressions in our regular expression signify the beginning of a charact
 In this section we will discuss greedy and lazy matches. A greedy match tries to match an element as many times as possible. Whereas, a lazy match tries to match an element as few times as possible. In our example we have `?` which signifies lazy quantifier. This is referred to a lazy quantifier because it causes the regular expression engine to match as few occurances as possible. We can simply turn this lazy match into a greedy one by adding a `?`.
 
 ## Author
-I am Chicago based web devloper named Tim, Im always looking to learn more about programming and these tutorials help!
+Timothy Signore
+
+im is a Chicago based web devloper finishing a full stack certification, always looking to learn more about programming and these tutorials help!
 
 GitHub: [TimmySigs](https://github.com/Timmysigs)
